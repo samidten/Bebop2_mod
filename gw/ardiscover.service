@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone='no'?><!--*-nxml-*-->
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<service-group>
+<name replace-wildcards="yes">Bebop2-C404150</name>
+<service>
+<type>_arsdk-090c._udp</type>
+<port>44444</port>
+<txt-record>{"device_id":"PI040376AA6C404150"}</txt-record>
+</service>
+</service-group>
